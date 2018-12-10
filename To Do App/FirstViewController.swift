@@ -37,8 +37,4 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
             table.reloadData()
         }
     }
-
-
-
 }
-

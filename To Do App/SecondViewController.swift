@@ -25,9 +25,6 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
         UserDefaults.standard.set(nil, forKey: "toDos")
     }
     
-    
-    
-    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
@@ -36,9 +33,4 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
         textField.resignFirstResponder()
         return true
     }
-    
-
-
-
 }
-
